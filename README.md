@@ -64,13 +64,6 @@ CatVideo Concatenator is a simple Android app written in Kotlin that allows user
 - Output files are saved in `Movies` via `MediaStore` for immediate visibility in gallery apps.
 - Progress is reported to the main thread using `runOnUiThread`.
 
----
-
-## License
-
-This project is **open-source**. Feel free to fork, modify, or contribute.
-
----
 
 ## Support
 
