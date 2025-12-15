@@ -1,8 +1,10 @@
+
+
 # CatVideo Concatenator
 
 CatVideo Concatenator is a simple Android app written in Kotlin that allows users to **select multiple videos from their device** and concatenate them into a single video without transcoding. The app displays **real-time text-based progress**, preserves the original video orientation, and saves the output video to the device's camera roll.
 
----
+If you like this app, you can support the me via [Ko-fi](https://ko-fi.com/nathanaelnewton).
 
 ## Features
 
@@ -63,10 +65,3 @@ CatVideo Concatenator is a simple Android app written in Kotlin that allows user
 - Background processing is done using a simple `Thread`.
 - Output files are saved in `Movies` via `MediaStore` for immediate visibility in gallery apps.
 - Progress is reported to the main thread using `runOnUiThread`.
-
-
-## Support
-
-If you like this app, you can support the me via [Ko-fi](https://ko-fi.com/nathanaelnewton).
-
----
