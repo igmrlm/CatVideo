@@ -1,4 +1,4 @@
-
+![Project Logo](main/ic_launcher-playstore.png)
 
 # CatVideo Concatenator
 
