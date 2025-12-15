@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp">
+
+    <Button
+        android:id="@+id/selectVideosButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Select Videos"/>
+
+    <TextView
+        android:id="@+id/statusText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Status: idle"
+        android:layout_marginTop="16dp"/>
+	<TextView
+		android:id="@+id/donateLink"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:text="Support me on Ko-fi if you found this app useful 💜💜"
+		android:textColor="@android:color/holo_blue_dark"
+		android:textSize="16sp"
+		android:layout_gravity="center_horizontal"
+		android:padding="16dp"
+		android:clickable="true"
+		android:focusable="true" />
+
+</LinearLayout>
