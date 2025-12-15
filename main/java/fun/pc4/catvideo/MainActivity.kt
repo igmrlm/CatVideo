@@ -45,6 +45,15 @@ class MainActivity : AppCompatActivity() {
             )
             startActivity(browserIntent)
         }
+        val helpButton = findViewById<Button>(R.id.helpButton)
+        helpButton.setOnClickListener {
+            val browserIntent = Intent(
+                Intent.ACTION_VIEW,
+                Uri.parse("https://github.com/igmrlm/CatVideo/blob/main/README.md")
+            )
+            startActivity(browserIntent)
+        }
+
     }
 
     override fun onActivityResult(requestCode: Int, resultCode: Int, data: Intent?) {
